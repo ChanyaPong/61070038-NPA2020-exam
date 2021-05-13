@@ -22,7 +22,6 @@ while True:
     text = GetMessage(access_token, room_id)
     print("Received message:" + text)
     if text != "61070038":
-        print(text)
         continue
     else:
         message = "Loopback61070038 - Operational status is down"
