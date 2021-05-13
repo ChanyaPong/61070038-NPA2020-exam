@@ -25,7 +25,7 @@ while True:
         print(text)
         continue
     else:
-        message = "Hello, it's me"
+        message = "Loopback61070038 - Operational status is down"
         url = 'https://webexapis.com/v1/messages'
         headers = {
             'Authorization': 'Bearer {}'.format(access_token),
